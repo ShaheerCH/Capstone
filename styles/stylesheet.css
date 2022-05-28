@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato";
+  font-family: "Lato", 'Courier New', Courier, monospace;
 }
 
 a {
@@ -32,6 +32,36 @@ a:hover {
   font-size: smaller;
 }
 
+footer img {
+  height: 160px;
+  cursor: pointer;
+}
+
+.second img {
+  height: 55px;
+  margin: 7px 0;
+  display: flex;
+}
+
+.program-details img {
+  height: 80px;
+}
+
+.speaker-container img {
+  width: 200px;
+}
+
+.comp img {
+  height: 90px;
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: 0.25s ease-in;
+}
+
+.comp img:hover {
+  filter: grayscale(0%);
+}
+
 .upper ul img {
   width: 20px;
   height: 22px;
@@ -48,12 +78,6 @@ a:hover {
   justify-content: space-between;
   padding: 0 100px 0 85px;
   background-color: white;
-}
-
-.second img {
-  height: 55px;
-  margin: 7px 0;
-  display: flex;
 }
 
 .second ul {
@@ -95,6 +119,10 @@ a:hover {
 .Hero h1 {
   color: #ce2d1b;
   font-size: 90px;
+}
+
+footer p {
+  font-size: 25px;
 }
 
 .Hero p {
@@ -151,10 +179,6 @@ a:hover {
   font-size: 15px;
   transition: 0.35s ease-in-out 0s;
   border: 1px solid #5f5f5f50;
-}
-
-.program-details img {
-  height: 80px;
 }
 
 .program-details:hover {
@@ -219,10 +243,6 @@ a:hover {
   align-items: center;
 }
 
-.speaker-container img {
-  width: 200px;
-}
-
 .speaker-name h4 {
   font-size: 30px;
   font-weight: bold;
@@ -249,7 +269,7 @@ a:hover {
 
 .partners {
   padding: 40px;
-  background-color: #272A31;
+  background-color: #272a31;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -268,17 +288,6 @@ a:hover {
   gap: 70px;
 }
 
-.comp img {
-  height: 90px;
-  cursor: pointer;
-  filter: grayscale(100%);
-  transition: 0.25s ease-in;
-}
-
-.comp img:hover {
-  filter: grayscale(0%);
-}
-
 footer {
   display: flex;
   background-color: #d3d3d3;
@@ -287,21 +296,12 @@ footer {
   gap: 160px;
 }
 
-footer img {
-  height: 160px;
-  cursor: pointer;
-}
-
-footer p {
-  font-size: 25px;
-}
-
 @media screen and (max-width: 768px) {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Lato";
+    font-family: "Lato", 'Courier New', Courier, monospace;
   }
 
   .upper {
@@ -321,15 +321,15 @@ footer p {
     transition-delay: 0.9s;
   }
 
-  .hamb.active>span:nth-child(2) {
+  .hamb.active > span:nth-child(2) {
     opacity: 0;
   }
 
-  .hamb.active>span:nth-child(1) {
+  .hamb.active > span:nth-child(1) {
     transform: translateY(7px) rotate(45deg);
   }
 
-  .hamb.active>span:nth-child(3) {
+  .hamb.active > span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
 
@@ -341,9 +341,8 @@ footer p {
 
   .second {
     position: fixed;
-    padding: 0px 150px 0;
+    padding: 0 150px 0;
     flex-direction: column;
-    overflow: overlay;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -353,9 +352,8 @@ footer p {
 
   .second.active {
     position: fixed;
-    padding: 0px 146px 0;
+    padding: 0 146px 0;
     flex-direction: column;
-    overflow: overlay;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -368,6 +366,10 @@ footer p {
 
   body.active {
     overflow: hidden;
+  }
+
+  footer img {
+    height: 90px;
   }
 
   .second img {
@@ -408,12 +410,16 @@ footer p {
     background-image: url(/media/bg-mob.svg);
     height: 562px;
     background-size: cover;
-    padding: 25px 0 0 0px;
+    padding: 25px 0 0 0;
   }
 
   .Hero h1 {
     font-size: 40px;
-    padding: 90px 0px 20px 20px;
+    padding: 90px 0 20px 20px;
+  }
+
+  footer p {
+    font-size: 15px;
   }
 
   .Hero p {
@@ -440,7 +446,7 @@ footer p {
 
   .programs {
     display: flex;
-    padding: 35px 12px 0px;
+    padding: 35px 12px 0;
     flex-direction: column;
   }
 
@@ -467,7 +473,7 @@ footer p {
 
   .summit {
     padding: 13px 25px;
-    border: 2px solid #EC5242;
+    border: 2px solid #ec5242;
     border-radius: 0;
     font-size: 21px;
   }
@@ -519,7 +525,7 @@ footer p {
 
   .partners {
     padding: 40px;
-    background-color: #272A31;
+    background-color: #272a31;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -544,13 +550,5 @@ footer p {
   footer {
     padding: 20px 20px;
     gap: 40px;
-  }
-
-  footer img {
-    height: 90px;
-  }
-
-  footer p {
-    font-size: 15px;
   }
 }
