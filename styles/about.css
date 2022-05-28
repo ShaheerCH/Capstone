@@ -32,6 +32,12 @@ a:hover {
   font-size: smaller;
 }
 
+.second img {
+  height: 55px;
+  margin: 7px 0;
+  display: flex;
+}
+
 .upper ul img {
   width: 20px;
   height: 22px;
@@ -48,12 +54,6 @@ a:hover {
   justify-content: space-between;
   padding: 0 100px 0 85px;
   background-color: white;
-}
-
-.second img {
-  height: 55px;
-  margin: 7px 0;
-  display: flex;
 }
 
 .second ul {
@@ -142,7 +142,7 @@ a:hover {
 .stable-title {
   color: black;
   font-size: 33px;
-  margin: 28px 0px 14px;
+  margin: 28px 0 14px;
   font-weight: bold;
 }
 
@@ -180,7 +180,7 @@ a:hover {
 .feature-title {
   color: black;
   font-size: 33px;
-  margin: 28px 0px 14px;
+  margin: 28px 0 14px;
   font-weight: bold;
 }
 
@@ -293,7 +293,7 @@ footer p {
 
   .second {
     position: fixed;
-    padding: 0px 150px 0;
+    padding: 0 150px 0;
     flex-direction: column;
     overflow: overlay;
     height: 100%;
@@ -305,7 +305,7 @@ footer p {
 
   .second.active {
     position: fixed;
-    padding: 0px 146px 0;
+    padding: 0 146px 0;
     flex-direction: column;
     overflow: overlay;
     height: 100%;
@@ -360,7 +360,7 @@ footer p {
     background-image: url(/media/bg-mob.svg);
     height: 600px;
     background-size: cover;
-    padding: 40px 0 0 0px;
+    padding: 40px 0 0 0;
   }
 
   .Hero h1 {
@@ -390,7 +390,7 @@ footer p {
   }
 
   .stable-info {
-    padding: 0px 40px;
+    padding: 0 40px;
   }
 
   .stable-picture {
