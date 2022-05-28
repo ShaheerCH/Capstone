@@ -3,7 +3,7 @@
 # Terra Luna 2.0 Launch
 
 > This is demo website made for a cryptocurrency lauch.
-> Check out a demo explanation about this project here [Live Video Demo Explainer]()
+> Check out a demo explanation about this project here [Live Video Demo Explainer](https://www.loom.com/share/9571466a20f74d42a7950200ed64758f)
 
 ## Built With
 
@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://aeh1707.github.io/capstone-neuromatch-conference/)
+[Live Demo Link]()
 
 ## Original Design by
 
@@ -31,7 +31,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page]().
 
 ## Show your support
 
