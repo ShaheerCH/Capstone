@@ -306,7 +306,7 @@ footer p {
   .second.active {
     position: fixed;
     padding: 0 146px 0;
-    flex-direction: column; 
+    flex-direction: column;
     height: 100%;
     display: flex;
     justify-content: center;
