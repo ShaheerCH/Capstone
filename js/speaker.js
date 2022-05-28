@@ -1,53 +1,53 @@
 const speakers = [
   {
-    photo: "./media/BinanceF.svg",
-    name: "Changpeng Zhao",
-    title: "Binance CEO",
+    photo: './media/BinanceF.svg',
+    name: 'Changpeng Zhao',
+    title: 'Binance CEO',
     description:
-      "Major stakeholder and contributor to the Terra 2.0 project Launch",
+      'Major stakeholder and contributor to the Terra 2.0 project Launch',
   },
 
   {
-    photo: "./media/terraF.svg",
-    name: "Don Kwon",
-    title: "Terra CEO",
+    photo: './media/terraF.svg',
+    name: 'Don Kwon',
+    title: 'Terra CEO',
     description:
-      "Founder of Terra grounp and created the Terra 2.0 project Launch",
+      'Founder of Terra grounp and created the Terra 2.0 project Launch',
   },
 
   {
-    photo: "./media/rippF.svg",
-    name: "Hedge Law",
-    title: "Hedge Fund",
+    photo: './media/rippF.svg',
+    name: 'Hedge Law',
+    title: 'Hedge Fund',
     description:
-      "Major stakeholder and Financer to the Terra 2.0 project Launch",
+      'Major stakeholder and Financer to the Terra 2.0 project Launch',
   },
 
   {
-    photo: "./media/ethF.svg",
-    name: "Vitalik Buterin",
-    title: "Etherium CEO",
+    photo: './media/ethF.svg',
+    name: 'Vitalik Buterin',
+    title: 'Etherium CEO',
     description:
-      "Creator of etherium and manages the 2.0 development and also major financer",
+      'Creator of etherium and manages the 2.0 development and also major financer',
   },
 
   {
-    photo: "./media/coinF.svg",
-    name: "Brain Armstrong",
-    title: "Coinbase CEO",
+    photo: './media/coinF.svg',
+    name: 'Brain Armstrong',
+    title: 'Coinbase CEO',
     description:
-      "Creator of Coinbase a major market leading crypto broker amd validator",
+      'Creator of Coinbase a major market leading crypto broker amd validator',
   },
 
   {
-    photo: "./media/bradF.svg",
-    name: "Brad Gunt",
-    title: "Hedge Fund",
+    photo: './media/bradF.svg',
+    name: 'Brad Gunt',
+    title: 'Hedge Fund',
     description:
-      "Major financer to 2.0 development and deployment and a cryto-visionary",
+      'Major financer to 2.0 development and deployment and a cryto-visionary',
   },
 ];
-const SpeakerDiv = document.getElementById("speakers-grid");
+const SpeakerDiv = document.getElementById('speakers-grid');
 const SpeakerContainer = speakers
   .map(
     (speaker) => `<div class="speaker-container">
@@ -66,8 +66,8 @@ const SpeakerContainer = speakers
         </p>
       </div>
     </div>
-  </div>`
+  </div>`,
   )
-  .join("");
+  .join('');
 
 SpeakerDiv.innerHTML += SpeakerContainer;
